@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,900);
+
+* {
+	box-sizing: border-box;	
+}
+
+body {
+    background-color: #00aced;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	flex: 100%;
+	margin: 0 auto;
+    max-width: 1200px;
+    
+    header {
+        margin-top: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-weight: 400;
+            font-size: 36px;
+            color: white;
+            margin: 0;
+        }
+    }
+
+    .box { 
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            color: white;
+            font-size: 24px;
+            font-weight: 400;
+        }
+
+        h3 {
+            color: white;
+            font-size: 20px;
+            font-weight: 300;
+        }
+        
+    }
+
+    .button-wrap {
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            padding: 10px 145px;
+            font-size: 18px;
+            font-weight: 400;
+            color: white;
+            background-color: transparent;
+            border: 1px solid white;
+            outline: none;
+            cursor: pointer;
+            transition: 0.2s linear;
+			
+			&:hover {
+				background-color: rgba(255, 255, 255, 0.50) 
+            }
+
+        }    
+        
+
+        a {
+            margin-top: 5vh;
+            padding: 8px 165px;
+            font-size: 18px;
+            font-weight: 400;
+            text-decoration: none;
+            color: white;
+             background-color: transparent;
+             border: 1px solid white;
+            outline: none;
+            cursor: pointer;
+            transition: 0.2s linear;
+                
+            &:hover {
+                    background-color: rgba(255, 255, 255, 0.50) 
+            }
+
+         }
+
+    }
+
+}
+
+
+
